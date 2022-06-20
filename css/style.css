@@ -50,13 +50,13 @@ transition: all 1s;
 .photograph{
     width:66%;
     margin-top:20px;
-    height:88%;
+    height:auto;
 }
 
 .photograph2{
     width:66%;
     margin-top:20px;
-    height:66%;
+    height:auto;
 }
 
 .contents-parent{

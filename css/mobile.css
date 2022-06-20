@@ -1,0 +1,110 @@
+body{
+    background-color:#F4F5F7;
+    margin: 0;
+    padding-top: 90px;
+
+}
+
+.header-parent{
+    background-color:#333;
+    position:fixed;
+    top:0;
+    left:0;
+    margin-bottom: 50px;
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+
+.header-name{
+    padding-left: 20px;
+    color:#F4F5F7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:17px;
+}
+
+.header-instaicon{
+    color:#F4F5F7;
+    font-size:40px;
+    text-decoration: none;
+    margin-left: auto;
+    padding-right:30px;
+}
+
+.fa-instagram{
+transition: all 1s;
+}
+
+ .fa-instagram:hover{
+    transform:scale(1.3);
+}
+
+.titletop{
+    width:100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.photograph{
+    width:66%;
+    margin-top:20px;
+    height:auto;
+}
+
+.photograph2{
+    width:55%;
+    margin-top:20px;
+    height:auto;
+}
+
+.contents-parent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align:center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+
+}
+
+.contents-item{
+    width:40%;
+    background-color:#333;
+    margin:10px;
+    height:220px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.contents-item h2{
+    color: #F4F5F7;
+}
+
+.contents-item p{
+    color:#F4F5F7;
+    font-size:10px;
+}
+
+.contents-header{
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    font-size:70px;
+}
+
+
+footer{
+    width: 100%;
+    bottom:0;
+    left:0;
+    background-color: #333;
+    text-align: center;
+    min-height:50px;
+    padding-top:8px;
+    padding-bottom:3px;
+    color:#F4F5F7;
+}
+
+.contents-info p{
+    font-size:20px;
+}

@@ -15,7 +15,6 @@ body{
     height:50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header-name{
@@ -27,14 +26,18 @@ body{
 
 .header-instaicon{
     color:#F4F5F7;
+    font-size:40px;
     text-decoration: none;
-    width:10%;
-    margin-right:10px;
+    margin-left: auto;
+    padding-right:30px;
 }
 
-.instaicon{
-    width: 100%;
-    filter: invert();
+.fa-instagram{
+transition: all 1s;
+}
+
+ .fa-instagram:hover{
+    transform:scale(1.3);
 }
 
 .titletop{

@@ -16,6 +16,7 @@ body{
     height:60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-name{
@@ -26,18 +27,22 @@ body{
 
 .header-instaicon{
     color:#F4F5F7;
-    font-size:40px;
     text-decoration: none;
-    margin-left: auto;
-    margin-right:30px;
+    width:3%;
+    margin-right:20px;
 }
 
-.fa-instagram{
+.instaicon{
 transition: all 1s;
 }
 
- .fa-instagram:hover{
+ .instaicon:hover{
     transform:scale(1.3);
+}
+
+.instaicon{
+    width:100%;
+    filter: invert();
 }
 
 .titletop{

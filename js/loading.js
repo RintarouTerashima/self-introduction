@@ -1,5 +1,5 @@
 
-window.setTimeout(finish, 3000);
+window.setTimeout(finish, 2500);
 
 function finish() {
     const spinner = document.getElementById('loading');

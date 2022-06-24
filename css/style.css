@@ -104,6 +104,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index:10;
 }
 
 .header-name{
@@ -135,6 +136,46 @@ filter: invert();
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
 }
+
+.name{
+    animation-delay:3s;
+    animation-name:fadeUpAnime;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeUpAnime{
+      from {
+        opacity: 0;
+      transform: translateY(100px);
+      }
+    
+      to {
+        opacity: 1;
+      transform: translateY(0);
+      }
+    }
+
+    .photograph{
+        animation-delay:5s;
+        animation-name:fadeLeftAnime;
+        animation-duration:1s;
+        animation-fill-mode:forwards;
+        opacity:0;
+        }
+        
+        @keyframes fadeLeftAnime{
+          from {
+            opacity: 0;
+          transform: translateX(-100px);
+          }
+        
+          to {
+            opacity: 1;
+          transform: translateX(0);
+          }
+        }
 
 .photograph{
     width:66%;
@@ -176,6 +217,19 @@ filter: invert();
     font-size:70px;
 }
 
+.contents-test{
+    opacity : 0;
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(30px);
+}
+
+  /*アニメーション要素までスクロールした時のスタイル*/
+.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
 
 footer{
     width: 100%;

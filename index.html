@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>自己紹介</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 961px)" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 960px)" type="text/css" href="css/mobile.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+ if(window.matchMedia("(max-width: 960px)").matches){
+
+
+    $(function(){
+  $(window).on('load scroll',function (){
+    $('.contents-test').each(function(){
+      //ターゲットの位置を取得
+      var target = $(this).offset().top;
+      console.log("target" + target)
+      //スクロール量を取得
+      var scroll = $(window).scrollTop();
+      //ウィンドウの高さを取得
+      var height = $(window).height();
+      //ターゲットまでスクロールするとフェードインする
+      if (scroll > target - height +800){
+        //クラスを付与
+        console.log(scroll);
+        $(this).addClass('active');
+      }
+    });
+  });
+});
+
+}else{ 
+
+
+ $(function(){
+  $(window).on('load scroll',function (){
+    $('.contents-test').each(function(){
+      //ターゲットの位置を取得
+      var target = $(this).offset().top;
+      console.log("target" + target)
+      //スクロール量を取得
+      var scroll = $(window).scrollTop();
+      //ウィンドウの高さを取得
+      var height = $(window).height();
+      //ターゲットまでスクロールするとフェードインする
+      if (scroll > target - height + 1300){
+        //クラスを付与
+        console.log(scroll);
+        $(this).addClass('active');
+      }
+    });
+  });
+});
+}
+         
+        
+         
+    </script>
+</head>
+
+<body>
+
+
+    <div id="loading">
+        <div class="loader"></div>
+    </div>
+    
+
+
+
+    <header class="header-parent">
+        <h1 class="header-name">Introduction</h1>
+        <a href="https://www.instagram.com/rtroutrsm/" class="header-instaicon" target="_blank"><img src="instaicon.png" class="instaicon"></a>
+    </header>
+
+    <div class="titletop">
+    <h1 class="name">Rintaro&nbsp;Terashima</h1>
+    <img src="myself.jpg" class="photograph">
+
+    </div>
+    
+    <div class="contents-parent">
+        <div class="contents-item contents-info contents-test">
+            <h2>Birthday</h2>
+                <p>June,12,2003</p>
+        </div>
+
+        <div class="contents-item contents-info contents-test">
+            <h2>Birthplace</h2>
+                <p>Tokyo</p>
+                <p>Nerima</p>
+        </div>
+
+        <div class="contents-item contents-info contents-test">
+            <h2>HighSchool</h2>
+                <p>Waseda Highschool</p>
+        </div>
+
+        <div class="contents-item contents-info contents-test">
+            <h2>Faculty</h2>
+                <p>School of Commerce</p>
+        </div>
+    </div>
+    
+        <h1 class="contents-header">Hobby</h1>
+        <div class="contents-parent contents-test">
+            <div class="contents-item">
+                <h2>Drums</h2>
+                <p><img src="drum.jpg" class="photograph2"></p>
+            </div>
+
+            <div class="contents-item contents-test">
+                <h2>Jpop</h2>
+                <p>Unison&nbsp;Square&nbsp;Garden</p>
+                <p>Hump&nbsp;Back</p>
+                <p>go!go!vanillas</p>
+                <p>Mrs.&nbsp;GREEN&nbsp;APPLE</p>
+                <p>Sumika</p>
+                <p>ヤバイTシャツ屋さん</p>
+            </div>
+        </div>
+
+    <footer>
+        <p class="footer-text">@&nbsp;Wasedasai&nbsp;2022&nbsp;Webteam</p>
+    </footer>
+
+    <script type="text/javascript" src="js/loading.js"></script>
+</body>
+
+
+
+</html>

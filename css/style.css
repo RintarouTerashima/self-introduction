@@ -113,22 +113,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.header-instaicon{
-    text-decoration: none;
-    width:3.5%;
-    margin-right:15px;
-}
 
-.instaicon{
-transition: all 1s;
-width:100%;
-height:auto;
-filter: invert();
-}
-
- .instaicon:hover{
-    transform:scale(1.3);
-}
 
 .titletop{
     width:100%;
@@ -138,9 +123,9 @@ filter: invert();
 }
 
 .name{
-    animation-delay:3s;
+    animation-delay:1.6s;
     animation-name:fadeUpAnime;
-    animation-duration:2s;
+    animation-duration:1s;
     animation-fill-mode:forwards;
     opacity:0;
     }
@@ -158,7 +143,7 @@ filter: invert();
     }
 
     .photograph{
-        animation-delay:5s;
+        animation-delay:1.75s;
         animation-name:fadeLeftAnime;
         animation-duration:1s;
         animation-fill-mode:forwards;
@@ -178,7 +163,7 @@ filter: invert();
         }
 
 .photograph{
-    width:50%;
+    width:40%;
     margin-top:20px;
     height:auto;
 }
@@ -197,12 +182,22 @@ filter: invert();
     margin-top: 40px;
 }
 
+.contents-parent2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align:center;
+    margin-top: 40px;
+}
+
 .contents-item{
     width:300px;
     background-color:#333;
     margin: 30px;
     border-radius: 15px;
 }
+
+
 .contents-item h2{
     color: #F4F5F7;
 }
@@ -210,6 +205,44 @@ filter: invert();
 .contents-item p{
     color:#F4F5F7;
 }
+
+.contents-parent3{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align:center;
+    margin-top: 40px;
+}
+
+.contents-item3{
+    width:80%;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.inflex{
+    display: flex;
+    justify-content: center;
+    width:90% ;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.infle-chil{
+    width: 45%;
+    margin: 5px;
+}
+
+
+.photograph3{
+    width:100%;
+    border: #333 0.5px solid ;
+    border-radius: 3px;
+}
+
+
 
 .contents-header{
     text-align:center;

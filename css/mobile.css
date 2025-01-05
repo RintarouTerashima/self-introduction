@@ -115,23 +115,6 @@ body{
     font-size:19px;
 }
 
-.header-instaicon{
-    text-decoration: none;
-    width:8%;
-    margin-right:15px;
-}
-
-.instaicon{
-transition: all 1s;
-width:100%;
-height:auto;
-filter: invert();
-}
-
-
- .instaicon:hover{
-    transform:scale(1.3);
-}
 
 .titletop{
     width:100%;
@@ -141,9 +124,9 @@ filter: invert();
 }
 
 .name{
-    animation-delay:3s;
+    animation-delay:1.6s;
     animation-name:fadeUpAnime;
-    animation-duration:3s;
+    animation-duration:1s;
     animation-fill-mode:forwards;
     opacity:0;
     }
@@ -161,7 +144,7 @@ filter: invert();
     }
 
     .photograph{
-        animation-delay:5s;
+        animation-delay:1.75s;
         animation-name:fadeLeftAnime;
         animation-duration:1s;
         animation-fill-mode:forwards;
@@ -199,7 +182,56 @@ filter: invert();
     text-align:center;
     margin-top: 40px;
     flex-wrap: wrap;
+}
 
+.contents-parent2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align:center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.contents-parent3{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align:center;
+    margin-top: 40px;
+}
+
+.contents-item3{
+    width:80%;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.inflex{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width:90% ;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.infle-chil{
+    width: 100%;
+    margin: 5px;
+}
+
+.inflex-rev{
+    flex-direction: column-reverse;
+}
+
+
+.photograph3{
+    width:100%;
+    border: #333 0.5px solid ;
+    border-radius: 3px;
 }
 
 .contents-item{
@@ -212,6 +244,7 @@ filter: invert();
 }
 .contents-item h2{
     color: #F4F5F7;
+    font-size: 18px;
 }
 
 .contents-item p{
@@ -253,4 +286,17 @@ footer{
 
 .contents-info p{
     font-size:20px;
+}
+
+.item-mobile{
+    height: 400px;
+    width: 80%;
+}
+
+.item-mobile p{
+    font-size: 15px;
+}
+
+.makecenter{
+    align-items: center;
 }
